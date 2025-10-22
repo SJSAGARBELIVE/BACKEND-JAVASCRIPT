@@ -1,0 +1,16 @@
+{
+  "name": "chai-aur-backend",
+  "version": "1.0.0",
+  "description": "A backend karlo",
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "license": "ISC",
+  "author": "Sagar Panigrahi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
