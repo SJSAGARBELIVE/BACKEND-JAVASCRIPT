@@ -5,13 +5,15 @@ class ApiERROR extends Error {
     errors = [],
     stack = ""
   ) {
-    super(message);
+   
+ console.log(super("Data is ",message));
+    super(message)
     this.statusCode = statusCode;
     this.data = null;
     this.message = message;
     this.success = false;
     this.errors = errors;
-
+   ;
     if (stack) {
       this.stack = stack;
     } else {
